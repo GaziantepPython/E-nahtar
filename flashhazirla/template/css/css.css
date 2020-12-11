@@ -1,0 +1,182 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow:hidden;
+  font-family:verdana,arial;
+}
+
+
+body {
+    border:2px solid #ccc;
+  background-image: linear-gradient(180deg, #f5f7fa 0%, #809FBF 100%);
+/*
+background:#809FBF;
+*/
+  box-sizing: border-box;
+  text-shadow:0 0 3px rgba(0,0,0,0.8);
+  color:#fff;
+}
+a {
+    color:#fff;
+    text-decoration:none;
+}
+#kapayici {
+	position:relative;
+}
+#baslik {
+    margin:0px;
+	top:0px;
+	left:0px;
+	z-index:3;
+    text-shadow:0 0 3px rgba(0,0,0,0.8);
+    font-weight:bold;
+	background-color:#2980B9;
+/*
+    background-image: linear-gradient(#4C45A3, #8181EE);
+*/
+	color:#fff;
+    font-size:24px;
+	text-indent:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	vertical-align:middle;
+    border-bottom:1px solid #666;
+    display:block;
+ }
+#btnKapat {
+    position:absolute;
+	top:15px;
+	right:5px;
+    background-color:#4CAF50;
+    color:#fff;
+    box-shadow:0 0 5px rgba(0, 0, 0,0.3);
+    cursor:pointer;
+    border-radius:50%;
+    display:inline-block;
+    text-align:center;
+    text-shadow:initial;
+    padding-top:5px;
+    padding-right:6px;
+    width:22px;height:22px;
+    font-size:14px;
+    transition:0.3s box-shadow;
+}
+#btnKapat:active {
+box-shadow:initial;
+transition:0.3s;
+}
+
+#orta {
+	margin-top:0px;
+	padding:10px;color:#336699;
+    text-shadow:0 0 3px rgba(255,255,255,0.5);
+    font-weight:bold;
+}
+
+#alt{
+position:fixed;
+bottom:10px;
+right:5px;
+font-size:11px;
+}
+
+#anahtarkodu {
+vertical-align:middle;
+font-size:18px;
+padding:5px;
+margin-top:5px;
+}
+
+#kodGosterGizle {
+padding:10px;
+vertical-align:middle;
+}
+
+#kodGosterGizle input {
+    border:0;
+    padding:10px;
+}
+
+#usbListe {
+padding-top:5px;
+padding-bottom:9px;
+vertical-align:middle;
+box-shadow:0 0 5px rgba(0,0,0,0.5);
+transition:0.3s box-shadow;
+margin-top:-10px;
+}
+
+
+.button_img {
+  border: none;
+  border-radius:5px;
+  color: white;
+  padding-top:5px;
+  padding-bottom:8px;
+  padding-left:15px;
+  padding-right:15px;
+  text-align: center;
+  margin-top:5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  line-height:100%;
+  box-shadow:0 0 5px rgba(0,0,0,0.5);
+   transition:0.3s box-shadow;
+  font-family:arial;
+text-shadow:0 0 3px rgba(0,0,0,0.8);
+ }
+
+.button_img img {
+width:24px;
+height:24px;
+margin-left:-10px;
+ float:left;
+}
+.button_img span {
+margin-left:5px;
+margin-top:4px;
+float:left;
+}
+.button_img:active {
+    box-shadow:initial;
+    transition:0.2s
+}
+
+.kirmizi {
+    background-color: #D64A5E;
+    color: #fff;
+}
+.yesil {
+    background-color: #409C40;
+  color: #fff;
+
+}
+
+.mavi {
+background-color: #2980B9;
+color: #fff;
+}
+
+.btn_kapat_back {background-color: #ccc;}
+.btn_reload_back {background-color: #357281;}
+.btn_yukle_back {background-color: #409C40;}
+
+button::-moz-focus-inner {
+  border: 0;
+      outline: none;
+}
+button::-moz-focus-outer {
+  border: 0;
+      outline: none;
+}
+button::-webkit-focus-inner {
+  border: 0;
+      outline: none;
+}
+button::-webkit-focus-outer {
+  border: 0;
+      outline: none;
+}

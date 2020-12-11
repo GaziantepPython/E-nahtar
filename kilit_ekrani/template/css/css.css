@@ -1,0 +1,126 @@
+html, body {
+	height: 100%;
+	padding:0;
+	margin:0;
+}
+#container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+#container header {
+	background-color: #f1f1f1;
+	border-bottom:1px solid #ccc;
+}
+#container article {
+	flex: 1 1 auto;
+	overflow-y: auto;
+	min-height: 0px;
+}
+#container footer {
+	border-top:1px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+.flex-container {
+	display: flex;
+	align-items: stretch;
+}
+.flex-container > div {
+	width: 100px;
+	margin: 2px;
+	text-align: center;
+
+}
+
+
+.radius {
+	border-radius:10px;
+}
+
+
+
+#content > div {
+	padding:10px;
+	margin:10px;
+	border:1px solid #ccc;
+	background-color:#f1f1f1;
+	min-height:40px;
+}
+
+
+#bakanlik {
+	color: #0c63a9;
+	font-size: 26px;
+	font-weight: bold;
+	padding: 0px;
+	text-transform: uppercase;
+	line-height: 26px;
+	padding:10px;
+}
+
+#okul {
+	color: #1295d5;
+	font-size: 20px;
+	line-height: 20px;
+	padding:10px;
+}
+
+#logoBakanlik {
+	width:100%;
+	height:100px;
+	background-image:url("../img/meblogo.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+}
+#logoOkul {
+	width:100%;
+	height:100px;
+	background-image:url("../img/atabayrak.png");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+}
+
+#enahtar {
+	color: #1295d5;
+	font-size: 12px;
+	padding:5px;
+}
+
+
+
+
+#saat {
+  font-family: arial, verdana;
+  color: #666;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+
+
+
+.flex-container-content {
+  display: flex;
+  flex-direction: column;
+/*
+  background-color: DodgerBlue;
+*/
+overflow:auto;
+}
+
+.flex-container-content > div {
+  background-color: #f1f1f1;
+/*
+  width: 100px;
+*/
+  margin-top: 10px;
+  border-radius:10px;
+  text-align: left;
+  line-height: 75px;
+  font-size: 30px;
+}

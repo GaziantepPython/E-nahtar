@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="tr">
+<meta charset="UTF-8">
+<script type='text/javascript' src="js/jquery-3.1.1.min.js"></script>
+<script type='text/javascript' src="js/etapkilitjs.js"></script>
+<link type="text/css" rel="stylesheet" href="css/css.css">
+<link type="text/css" rel="stylesheet" href="css/snackbar.css">
+<title>E-nahtar</title>
+</head>
+<body>
+<div id="kapayici">
+	<div id="baslik">
+        <span style="background-color:#fff;padding:5px;padding-top:15px;border-radius:10px;margin-right:10px;box-shadow:0 0 3px rgba(0,0,0,0.8);"><img src="img/logo1.png" width=48 ></span>E-nahtar Usb Bellek Hazırla
+        <span id="btnKapat" class=" " onClick="exit()">X&nbsp;</span>
+    </div>
+	<div id="orta" style="text-align:center;">
+		Flash Bellek Seçiniz<br>
+		<select id="usbListe"></select>
+
+
+        <button class="button_img btn_reload_back" onClick="usListesiYenile()"><img src="img/reload.png"><span>Yenile</span> </button>
+
+
+        <br/>
+        <br/>
+
+		Anahtar Kod (<a href="javascript:void(0)" onclick="anahtarKodBilgi()">?</a>)<br>
+		<input type="password" id="anahtarkodu" value=""><label id="kodGosterGizle"><input type="checkbox" onclick="sifreGosterGizle()"></label>
+
+		<br>
+		<br>
+
+         <button class="button_img btn_yukle_back"  onClick="flashHazirla()"><img src="img/upload2.png"><span>Flash Bellek Hazırla</span> </button>
+
+
+	</div>
+    	<div id="alt">E-nahtar Versiyon: 1.0.0</div>
+
+</div>
+<div id="snackbar" class="hide">Some text some message..</div>
+ </body>
+</html>
