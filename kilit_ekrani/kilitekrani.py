@@ -8,9 +8,7 @@ from threading import Thread
 class KilitEkrani:
     sablonlar = {
         "varsayilan": "template/index.html",
-        "webadresi": "http://sahinbeyktl.meb.k12.tr/tema/icerik.php?KATEGORINO=192972",
-        "pano": "http://127.0.0.1/~sef/proje/bilgepano/bilgepano24042017/"
-    }
+        "webadresi": "http://sahinbeyktl.meb.k12.tr/tema/icerik.php?KATEGORINO=192972"    }
 
     def __init__(self):
         self.window = webview.create_window("ETAP E-Nahtar",
