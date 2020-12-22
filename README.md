@@ -9,4 +9,4 @@ Proje Pardus yüklü etkileşimli tahtalarda çalışmaktadır. Proje dosyaları
 Sistem iki klasörden oluşmaktadır.
 Anahtar ve kullancı işlemleri için anahtarolustur/enahtar.py dosyası çalıştırılmalıdır.
 Kilit ekranının gelmesi için kilit_ekrani/kilitekrani.py dosyası çalışmalıdır.
-Kullanım ile ilgili ayrıntılı bilgi ve dökümanlara ana dizinden ulaşabilirsiniz.
+Kullanım ile ilgili ayrıntılı bilgi ve dökümanlara docs dizininden ulaşabilirsiniz.
